@@ -1,5 +1,11 @@
-# sempai
+## Sempai
+![Medusa Hackathon 2022](public/images/cover.png)
 anime merch shop
+
+## About
+
+### Participants
+- @byt3h3ad 
 
 
 ## Local Setup:
