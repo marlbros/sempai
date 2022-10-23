@@ -13,6 +13,9 @@
 
 Anime merch shop using NextJS and MedusJS. Will be used by Anime Senpai Society to sell merch using a coin system which can be used to redeem free merch by an account.
 
+## Previews
+![hero](https://i.imgur.com/jiPzv5q.png)
+
 ## Local Setup:
 
 Here are some pre-requisites that you may require to run the project on your system.
@@ -20,7 +23,7 @@ Here are some pre-requisites that you may require to run the project on your sys
 Prerequisites:
 
 - Medusa CLI (```npm install -g @medusajs/medusa-cli```) .
-- Node (https://node.org/)
+- NodeJS (https://nodejs.org)
 
 ### Install Project
 
@@ -51,3 +54,4 @@ Here are some technologies that were very useful throughout the process :
 - [Medusa’s GitHub repository](https://github.com/medusajs/medusa)
 - [NextJs](https://nextjs.org/)
 - [React](https://reactjs.org/)
+- [NodeJS](https://node.org/)
