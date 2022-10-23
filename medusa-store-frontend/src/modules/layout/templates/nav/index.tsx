@@ -8,6 +8,7 @@ import clsx from "clsx"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react"
+import Image from "next/image"
 
 const Nav = () => {
   const { pathname } = useRouter()
@@ -47,9 +48,9 @@ const Nav = () => {
     >
       <header
         className={clsx(
-          "relative h-16 px-8 mx-auto transition-colors bg-transparent border-b border-transparent duration-200 group-hover:bg-white group-hover:border-gray-200",
+          "relative h-16 px-8 mx-auto transition-colors bg-transparent border-b border-transparent duration-200 group-hover:bg-pink-100 group-hover:border-gray-200",
           {
-            "!bg-white !border-gray-200": !isHome || isScrolled,
+            "!bg-pink-100 !border-gray-200": !isHome || isScrolled,
           }
         )}
       >
@@ -72,7 +73,14 @@ const Nav = () => {
 
           <div className="flex items-center h-full">
             <Link href="/">
-              <a className="text-xl-semi uppercase">Assam Senpai Society</a>
+              <Image
+                src="/logo1.png"
+                layout="fixed"
+                width={240}
+                height={60}
+                alt=""
+                className="absolute h-full w-auto inset-0"
+              />
             </Link>
           </div>
 
